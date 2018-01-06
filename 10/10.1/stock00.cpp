@@ -69,7 +69,7 @@ void Stock::update(double price)
 
 void Stock::show()
 {
-    std::cout << "company:"<<company <<", stock num:"<<shares <<"\n"
-        <<"share_val:"<<share_val<<", total money:"<<total_val<<'\n';
+    std::cout << "company:" << company  << ", stock num:" << shares << "\n"
+        << "share_val:$" << share_val << " total money:$" << total_val << '\n';
         
 }
